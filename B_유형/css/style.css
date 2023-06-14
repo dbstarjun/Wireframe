@@ -10,15 +10,13 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    /* 이번 유형의 기본텍스트 색은 #222327임 */
-    color: #222327;
+    /* 이번 유형의 기본텍스트 색은 #333333임 */
+    color: #333333;
 }
 
 .wrapper {
-    /* 이번 유형은 사이트가 웹브라우저 한가운데로 이동해야됨  margin: 0 auto; 사용이유임 */
-    margin: 0 auto;
-    /* 문제 유형의 조건이 가로 1200px 지정되어있음 */
     width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -27,46 +25,47 @@ header {
     height: 100px;
 }
 
-
 .logo {
+    float: left;
+    border-left: 1px solid #333;
     border-right: 1px solid #333;
     width: 200px;
     height: 100px;
-    float: left;
 }
+
 
 .menu {
     border: 1px solid #333;
     float: right;
-    margin: 25px 10px 0 0;
+    margin: 20px 20px 0 0;
     width: 800px;
     height: 50px;
 }
 
-
 .slide {
+    border-right: 1px solid #333; 
     border-left: 1px solid #333;
     border-bottom: 1px solid #333;
-    border-right: 1px solid #333;
     width: 100%;
     height: 300px;
 }
 
 .contents {
     border-left: 1px solid #333;
-    border-bottom: 1px solid #333;
     border-right: 1px solid #333;
-    width: 1200px;
+    width: 100%;
     height: 200px;
     position: relative;
     display: flex;
 }
+
 
 .notice {
     border-right: 1px solid #333;
     width: 400px;
     height: 100%;
 }
+
 
 .banner {
     border-right: 1px solid #333;
@@ -79,32 +78,32 @@ header {
     height: 100%;
 }
 
-
 footer {
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
-    border-bottom: 1px solid #333;
+    border: 1px solid #333;
     width: 100%;
     height: 100px;
-    position: relative;
-    display: flex;
 }
 
 .flogo {
-    border-right: 1px solid #333;
     float: left;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
     width: 200px;
-    height: 100%;
+    height: 100px;
 }
+
+.fmenu {
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    float: right;
+    width: calc(100% - 200px);
+    height: 50px;
+}
+
 
 .copyright {
     border-right: 1px solid #333;
-    width: 800px;
-    height: 100%;
-}
-
-.sns {
-    width: 200px;
-    height: 100%;
     float: right;
+    width: calc(100% - 200px);
+    height: 50px;
 }
