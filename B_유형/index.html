@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>B 유형 와이어 프레임.</title>
+    <!-- li까지 치면 link:css 나옴 -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- B유형은 헤더와 푸터 가로 길이가 웹 브라우저 100%인 유형,  -->
+    <!-- 해당 와이어프레임은 B_1 유형을 참고함 따라서 서브메뉴의 움직임이나 컨텐츠 영역은 같지만 작성되는 내용, 푸터의 메뉴가 다를 수 있음 -->
+    <!-- 나머지는 가로가 1200px로 웹브라우저 가운데 위치 wrapper는 id가 아닌 class로 작성하여 같은 css를 공유가 가능. -->
+    <header>
+        <!-- 헤더를 길게 뽑아야해서 헤더 안에 wrapper속성 div로 감쌈 -->
+        <div class="wrapper">
+            <!-- 헤더 로고 영역 -->
+            <div class="logo">
+                <!-- 문제 조건에  tab으로 이동가능한 콘텐츠에 로고 포함이라 a안에 img 작성 <a href="#"><img src="" alt=""></a> -->
+            </div>
+            <!-- 메뉴 영역 -->
+            <div class="menu">
+                <!-- 문제 조건에 메뉴는 tab으로 이동가능한 콘텐츠에 포함되어 있음 유의해서 작업해야됨 -->
+            </div>
+        </div>
+    </header>
+    <!-- 슬라이드와 컨텐츠 영역들은 가로 1200px 웹브라우저에서 가운데 정렬이 되어야함 따라서 wrapper 속성의 div로 한번 감싼후 작업 -->
+    <div class="wrapper">
+        <!-- 슬라이드 영역 -->
+        <div class="slide">
+            <!-- 슬라이드 영역은 이미지를 활용하여 작성 -->
+        </div>
+        <div class="contents">
+            공지사항/갤러리 영역
+            <div class="notice">
+
+            </div>
+            <div class="banner">
+
+            </div>
+            <div class="go"></div>
+        </div>
+    </div>
 </body>
 </html>
