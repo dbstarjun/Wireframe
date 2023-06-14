@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just 쇼핑몰 와이어 프레임 구조</title>
+    <!-- li까지 치면 link:css 나옴 -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- a-1 문제 유형은 가로 사이즈가 1200px인 사이트로 전체적으로 div wrappre 안에서 작업해야됨 -->
+    <div class="wrapper">
+        <!-- header는 he만 쳐도 자동완성으로 나옴 -->
+        <header>
+            <!-- 헤더 영역안에는 로고와 메뉴가 구성되어야 됨 -->
+            <div class="logo">
+                <!-- 이 주석 부분에는 실제로 <a href="#"><img src="" alt="logo"></a>가 들어가 있어야됨 -->
+            </div>
+            <div class="menu">
+                <!-- 메뉴 구성시 모든 메뉴는 a에 #임시 링크를 사용하여 탭으로 이동이 가능해야하는 조건이 있음 -->
+            </div>
+        </header>
+        <!-- 헤더 다음으로 구성되어야 하는 슬라이드 영역 -->
+        <div class="slide">
+            <!-- a-1 유형의 경우 슬라이드 또한 탭으로 이동가능해야 하는 조건이 있음 <a href="#"><img src="" alt="sldie img"></a> 형식으로 작성 -->
+        </div>
+        <!-- 공지사항/갤러리, 배너, 바로가기등이 구성되어있는 영역 -->
+        <div class="contents">
+            <!-- 공지사항/갤러리의 영역  -->
+            <div class="notice">
+                <!-- 공지사항 내용 또한 탭으로 이동이 가능해야함 갤러리 또한 탭으로 이동이 되어야 함으로 <a href="#"><img src="" alt=""></a> 사용해야함 -->
+            </div>
+            <!-- 배너 영역 -->
+            <div class="banner">
+
+            </div>
+            <!-- 바로가기 영역 -->
+            <div class="go">
+
+            </div>
+        </div>
+        <!-- foo까지만 쳐도 자동완성 나옴 -->
+        <footer>
+            <!-- 푸터 로고 영역 -->
+            <div class="flogo">
+                <!-- 로고는 탭으로 이동되어야 함<a href="#"><img src="" alt=""></a> -->
+            </div>
+            <!-- 카피라이트 영역 -->
+            <div class="copyright">
+
+            </div>
+            <!-- sns 영역 -->
+            <div class="sns">
+                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

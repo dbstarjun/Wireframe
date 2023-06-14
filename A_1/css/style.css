@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* utf-8 사용 해야함 */
+
+/* < css 시작전 유의사항 : 와이어 프레임만 적용하기 위하여  border: 1px solid #333;을 사용하였습니다 실제로는 적용 x > */
+
+/* 여기서 전체 공통으로 먹여줘야 하는것들이 있음 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* 이번 유형의 기본텍스트 색은 #222327임 */
+    color: #222327;
+}
+
+.wrapper {
+    /* 이번 유형은 사이트가 웹브라우저 한가운데로 이동해야됨  margin: 0 auto; 사용이유임 */
+    margin: 0 auto;
+    /* 문제 유형의 조건이 가로 1200px 지정되어있음 */
+    width: 1200px;
+}
+
+header {
+    border: 1px solid #333;
+    width: 100%;
+    height: 100px;
+}
+
+
+.logo {
+    border-right: 1px solid #333;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.menu {
+    border: 1px solid #333;
+    float: right;
+    margin: 25px 10px 0 0;
+    width: 800px;
+    height: 50px;
+}
+
+
+.slide {
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    width: 100%;
+    height: 300px;
+}
+
+.contents {
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+}
+
+.notice {
+    border-right: 1px solid #333;
+    width: 400px;
+    height: 100%;
+}
+
+.banner {
+    border-right: 1px solid #333;
+    width: 400px;
+    height: 100%;
+}
+
+.go {
+    width: 400px;
+    height: 100%;
+}
+
+
+footer {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+}
+
+.flogo {
+    border-right: 1px solid #333;
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+.copyright {
+    border-right: 1px solid #333;
+    width: 800px;
+    height: 100%;
+}
+
+.sns {
+    width: 200px;
+    height: 100%;
+    float: right;
+}
