@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* utf-8 사용 해야함 */
+
+/* < css 시작전 유의사항 : 와이어 프레임만 적용하기 위하여  border: 1px solid #333;을 사용함 실제로는 적용 x > */
+
+/* 여기서 전체 공통으로 먹여줘야 하는것들이 있음 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* 이번 유형의 기본텍스트 색은 #333333임 */
+    color: #333333;
+}
+
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 120px);
+    border:  1px solid #333333;
+    display: flex;
+}
+
+header {
+    width: 200px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #333333;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    border-bottom: 1px solid #333333;
+}
+
+.contents {
+    width: 400px;
+    height: 100%;
+    border-right: 1px solid #333333;
+}
+
+.banner {
+    width: 100%;
+    height: calc(100% / 3/ 2);
+    border-bottom: 1px solid #333333;
+}
+
+.news {
+    width: 100%;
+    height: calc(100% / 3);
+    border-bottom: 1px solid #333333;
+}
+
+.gallery {
+    width: 100%;
+    height: calc(100% / 3);
+    border-bottom: 1px solid #333333;
+}
+
+.link {
+    width: 100%;
+    height: calc(100% / 3/ 2);
+}
+
+
+.slide {
+    width: calc(100% - 200px - 400px);
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #333333;
+    border-top: none;
+    bottom: 0;
+}
+
+/* #pop {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #333333;
+} */
+
+
+.flogo {
+    width: 200px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #333333;
+}
+
+.fmenu {
+    width: calc(100% - 200px);
+    height: 50%;
+    float: right;
+    border-bottom: 1px solid #333333;
+}
+
+.copy {
+    width: calc(100% - 200px);
+    height: 50%;
+    float: right;
+}
