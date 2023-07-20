@@ -16,6 +16,7 @@
 
 
 .wrapper {
+<<<<<<< Updated upstream
     position: absolute;
     width: 100%;
     height: calc(100% - 120px);
@@ -110,3 +111,8 @@ footer {
     height: 50%;
     float: right;
 }
+=======
+    
+}
+
+>>>>>>> Stashed changes
